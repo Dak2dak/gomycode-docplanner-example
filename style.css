@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* HEADER STYLING - START */
+
+header {
+    padding: 20px 260px;
+}
+
+nav {
+    margin-bottom: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_left {
+    gap: 10px;
+    display: flex;
+}
+
+.nav_left li span {
+    color: #00b39b;
+}
+
+.nav_left li {
+    color: #A4A8AC;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.nav_right {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.nav_right li {
+    color: #BCBCBB;
+}
+
+.about {
+    color: #00b39b;
+}
+
+.header_section {
+    /* border: solid; */
+    margin: 50px 0;
+}
+
+.header_section .header_section-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.header_section h1 {
+    color: #00b39b;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.description {
+    margin: 60px 0;
+    display: flex;
+    gap: 30px;
+    line-height: 30px;
+}
+
+
+/* HEADER STYLING - END */
+
+/* =========================================================== */
+
+/* FIRST SECTION STYLIONG - START */
+
+.first_section {
+    padding: 20px 260px;
+}
+
+.first_section-top {
+    display: flex;
+    gap: 20px;
+}
+
+.first_card {
+    background-color: #00b39b;
+}
+
+.first_card p {
+    margin-bottom: 70px;
+}
+
+.second_card {
+    background-color: #3d83df;
+}
+
+.second_card p {
+    margin-bottom: 70px;
+}
+
+.third_card {
+    background-color: #1b2734;
+}
+
+.third_card p {
+    margin-bottom: 40px;
+}
+
+.card {
+    color: #fff;
+    height: 350px;
+    font-size: 20px;
+    padding: 30px 40px;
+    border-radius: 15px;
+}
+
+.card h3 {
+    margin: 8px 0 12px 0;
+}
+
+.card p {
+    font-size: 22px;
+}
+
+.first_section-top form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_section-top label {
+    text-decoration: underline;
+}
+
+.first_section-top select {
+    /* display: none; */
+    outline: none;
+    appearance: none;
+}
+
+
+.first_section-bottom {
+    margin: 70px 0;
+    display: flex;
+    gap: 80px;
+}
+
+.first_section-bottom h4 {
+    color: #00b39b;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.logo_set {
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 140%;
+}
+
+.logo_set a {
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo_set a p:hover {
+    color: #00b39b;
+    font-weight: 600;
+}
+
+.logo_set a .docplanner {
+    width: 20px;
+}
+
+.logo_set a .feegow {
+    width: 100px;
+}
+
+.cloud {
+    width: 70px;
+}
+
+.logo_set a p {
+    color: #A4A8AC;
+}
+
+
+
+/* FIRST SECTION STYLING - END */
